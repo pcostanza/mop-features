@@ -449,6 +449,7 @@
     :direct-slot-definition-initialized-with-class
     :direct-slot-definition-initialized-with-default-reader
     :direct-slot-definition-initialized-with-default-writer
+    :direct-slot-definition-initialized-with-source
     :direct-slot-definition-initialized-with-type-check-function
     :direct-superclasses-by-default-standard-metaobject
     :direct-superclasses-by-default-standard-symbol
@@ -500,6 +501,7 @@
     :slot-exists-p-calls-slot-exists-p-using-class
     :slot-exists-p-using-class
     :slot-exists-p-using-class-specialized-on-symbol
+    :source-passed-to-direct-slot-definition-class
     :type-check-function-passed-to-direct-slot-definition-class
     :type-check-function-passed-to-effective-slot-definition-class))
 
