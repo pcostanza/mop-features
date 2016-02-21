@@ -2,32 +2,19 @@
 This package provides a way to check what CLOS MOP features a Common Lisp implementation supports.
 
 Currently, the following Common Lisp implementations are supported:
-* Allegro Common Lisp 10.0 Express Edition
-* Armed Bear Common Lisp 1.3.3
-* CLisp 2.49
-* Clozure Common Lisp 1.11
-* CMU Common Lisp 21a
-* Embeddable Common Lisp 16.0.0
-* LispWorks 6.1.1 Personal Edition
-* LispWorks 7.0.0 Hobbyist Edition
-* Steel Bank Common Lisp 1.3.2
+* Allegro Common Lisp
+* Armed Bear Common Lisp
+* CLisp
+* Clozure Common Lisp
+* CMU Common Lisp
+* Embeddable Common Lisp
+* LispWorks 
+* Steel Bank Common Lisp
 
 The following implementations were supported in the past:
-* Allegro Common Lisp 7.0, 8.0 - 8.2 Enterprise Editions
-* Allegro Common Lisp 9.0 Express Edition
-* Armed Bear Common Lisp 1.1.1, 1.2.1, 1.3.0, 1.3.1, 1.3.2
-* CLisp from 2.35 onward
-* Clozure Common Lisp 1.2 - 1.10
-* CMU Common Lisp 19c-f, 20a-f
-* Embeddable Common Lisp 9.12.3, 10.3.1, 10.4.1, 11.1.1, 12.2.1, 12.12.1, 15.2.21, 15.3.7
-* LispWorks 4.3 & 4.4, Personal and Professional Editions
-* LispWorks 5.0.1, 5.0.2, 5.1.0 - 5.1.2 Personal and Professional Editions
-* LispWorks 6.0, 6.0.1 Enterprise Editions
-* LispWorks 6.1, 6.1.1, Professional Editions
-* Macintosh Common Lisp 5.1, 5.2.1
-* OpenMCL 1.0
-* Scieneer Common Lisp 1.3.9
-* Steel Bank Common Lisp from 0.9.16 onward (except version 1.0.0)
+* Macintosh Common Lisp
+* OpenMCL
+* Scieneer Common Lisp
 
 The respective code conditionalizations are still in the source files, so there is a good chance that they still work, especially for current or newer versions. However, there is no guarantee that this is the case, and active work for these implementations is currently on hold.
 
