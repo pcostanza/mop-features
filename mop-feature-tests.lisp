@@ -406,6 +406,7 @@
 (defparameter *mop-known-extra-features*
   '(:method-initialized-with-simple-next-method-call
     :accessor-method-initialized-with-simple-next-method-call
+    :accessor-method-initialized-with-source
     :effective-slot-definition-initialized-with-readers
     :effective-slot-definition-initialized-with-writers
     :readers-passed-to-effective-slot-definition-class
@@ -439,6 +440,7 @@
     :class-initialized-with-location
     :class-initialized-with-optimize-slot-access
     :class-initialized-with-safe-p
+    :class-initialized-with-source
     :class-passed-to-direct-slot-definition-class
     :class-passed-to-effective-slot-definition-class
     :classes-must-be-named
@@ -473,6 +475,7 @@
     :generic-function-initialized-with-initial-methods
     :generic-function-initialized-with-location
     :generic-function-initialized-with-methods
+    :generic-function-initialized-with-source
     :generic-functions-must-be-named
     :inheritable-doc-passed-to-effective-slot-definition-class
     :inheritable-initer-passed-to-effective-slot-definition-class
@@ -488,6 +491,7 @@
     :method-initialized-with-plist
     :method-initialized-with-real-function
     :method-initialized-with-signature
+    :method-initialized-with-source
     :method-initialized-with-wants-next-method-p
     :method-lambdas-are-unchanged
     :multiple-slot-options-passed-as-singletons-to-direct-slot-definition-class
